@@ -1,0 +1,269 @@
+/* Custom, iPhone Retina */
+/* @media only screen and (min-width: 320px) {
+} */
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1970px) {
+    .hero-logo {
+        /* margin-left: -50px; */
+        width: 100%;
+    }
+
+    .block-container {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 1570px) {
+    .block-items {
+        width: 100%;
+    }
+
+    .block-item.projects {
+        width: 225px;
+    }
+
+    .block-eight,
+    .block-ten {
+        width: 100%;
+        height: 60vh;
+        margin: 42px 0;
+        background-image: url("../img/svg/Project_app_bg.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .block-ten {
+        background-image: url("../img/png/Blog_details_bg.png");
+    }
+
+    .block-item.blog {
+        width: 44%;
+        /* flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .block-item.section {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .block-item.blog {
+        width: 40%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .block-container h1 {
+        font-size: 64px;
+        line-height: 1;
+    }
+    header button.universal {
+        display: none;
+    }
+
+    ul.header-items {
+        display: none;
+    }
+
+    .block-item {
+        width: 100%;
+    }
+
+    .block-item.blog {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .block-item.blog img {
+        width: inherit;
+        background-size: cover;
+    }
+
+    .block-items {
+        width: auto;
+        justify-content: center;
+    }
+
+    .block.block-six {
+        /* width: 70%; */
+    }
+
+    .block-content {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .block-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .block-item.section {
+        width: 100%;
+        margin: 25px 10px;
+        padding: 0;
+    }
+
+    .block-six h4 {
+        width: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        font-family: "Inter";
+        margin: 15px 0;
+    }
+    .contact-form form {
+        padding: 0;
+    }
+
+    .user-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-info input.email,
+    .user-info input.name,
+    .user-info input.message {
+        width: 90%;
+    }
+
+    .block-item.projects {
+        width: 90%;
+        max-height: 300px;
+    }
+
+    .block-eight,
+    .block-ten {
+        height: 25vh;
+    }
+
+    .block.block-seven {
+        padding-top: 20%;
+    }
+
+    .about-info span {
+        margin-bottom: 16px;
+    }
+
+    .about-info p {
+        font-size: 18px;
+    }
+
+    button.burger {
+        display: flex;
+    }
+
+    .block-items.section {
+        justify-content: space-around;
+    }
+
+    .message {
+        margin: 0;
+    }
+    .blog-desc {
+        width: 90%;
+    }
+
+    .hero-logo {
+        margin-top: 100px;
+    }
+
+    .blog-content {
+        width: 90%;
+    }
+
+    .blog-container {
+        margin-top: 100px;
+    }
+
+    .blog-desc.desc {
+        width: 90%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    a.google-link {
+        /* width: 90%; */
+    }
+    .blog-desc {
+        width: 90%;
+    }
+    .specs-list span {
+        font-size: 11px;
+    }
+    .block-one {
+        height: calc(80vh - 80px);
+    }
+    .block-container h1 {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .block-items.section {
+        justify-content: center;
+    }
+
+    .block-one h2,
+    .block-two h2,
+    .block-three h2,
+    .block-four h2,
+    .block-five h2,
+    .block-six h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        font-family: "Inter";
+        margin: 15px 0;
+    }
+
+    .contact-form form {
+        padding: 0;
+    }
+
+    .block-item.section img {
+        width: 148px;
+        height: 148px;
+    }
+
+    .block-item.blog img {
+        width: inherit;
+    }
+
+    .blog-desc.desc {
+        display: flex;
+        flex-wrap: wrap;
+        text-wrap: revert;
+        white-space: wrap;
+        /* width: 90%; */
+    }
+
+    .google-link {
+        white-space: wrap;
+        text-align: left;
+    }
+}
+
+/* Medium Devices, Desktops */
+/* @media only screen and (min-width: 992px) {
+} */
